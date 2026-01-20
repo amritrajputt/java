@@ -12,7 +12,7 @@ public class FinalKeyword {
         // amrit = new A("new name"); // reassigning not allowed
     A obj;
     for(int i = 0;i<1000000000;i++){
-        obj= new A("Random name");
+        obj= new A("Random name ");
     }
     }
 }
