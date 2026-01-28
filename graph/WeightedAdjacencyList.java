@@ -31,7 +31,6 @@ public class WeightedAdjacencyList {
         print(adj, v);
     }
 
-    // Undirected weighted graph
     private static void addEdge(ArrayList<ArrayList<Edge>> adj, int u, int v, int w) {
         adj.get(u).add(new Edge(v, w));
         adj.get(v).add(new Edge(u, w));
