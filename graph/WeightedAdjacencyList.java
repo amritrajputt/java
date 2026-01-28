@@ -11,12 +11,9 @@ class Edge {
         this.weight = weight;
     }
 }
-
 public class WeightedAdjacencyList {
     public static void main(String[] args) {
-
         int v = 4;
-
         ArrayList<ArrayList<Edge>> adj = new ArrayList<>();
 
         for (int i = 0; i <= v; i++) {
