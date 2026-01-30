@@ -1,6 +1,6 @@
 package practice;
 
-public class Main {
+public class Main69 {
     public static void main(String[] args) {
         Student s1 = new Student("amrit", 21);
         System.out.println("name: "+s1.name+" "+"age: "+s1.age);

@@ -1,3 +1,5 @@
+import oops.properties.inheritance.Box;
+
 public class Demo {
     public static void main(String[] args) {
         Box box1 = new Box(5);
