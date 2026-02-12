@@ -20,5 +20,14 @@ public class Main{
 
         name1 = name1 + new ArrayList<>(); // converts list into string by toString() method
         System.out.println(name1.getClass().getName());
+
+        name1.concate(" rajput");
+        System.out.println(name1);
+
+        String concatedName = name1.concate(" rajput");
+        System.out.println(name1);
+
+        name2+=" rajput"
+        System.out.println(name1);
     }
 }
